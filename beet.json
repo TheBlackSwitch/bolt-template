@@ -1,7 +1,7 @@
 {
     "data_pack": {
         "load": [
-            "libraries/SwitchLib-v2.0.3",
+            "libraries/SwitchLib-v2.0.3.zip",
             "src/datapack"
         ],
         "name": "Template Datapack"
