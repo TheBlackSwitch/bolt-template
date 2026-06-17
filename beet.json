@@ -1,7 +1,7 @@
 {
     "data_pack": {
         "load": [
-            "libraries/SwitchLib-v2.0.2",
+            "libraries/SwitchLib-v2.0.3",
             "src/datapack"
         ],
         "name": "Template Datapack"
@@ -23,9 +23,6 @@
     ],
     "output": "build",
     "meta": {
-        "bolt": {
-            "entrypoint": ["tp:main"]
-        },
         "aliases": [
             {
                 "regex": "__version__",
@@ -34,7 +31,7 @@
             },
             {
                 "regex": "__patch__",
-                "replace": "patch-0",
+                "replace": "patch-3",
                 "comment": "The switch lib major version"
             }
         ]
